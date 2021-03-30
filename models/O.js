@@ -1,0 +1,19 @@
+class Ostrich {
+    constructor(
+        name = '',
+        color = '',
+        gender = '',
+        weight = 0,
+        tailLengthInch = 0,
+        teethSize = '',
+    ) {
+        this.name = name;
+        this.color = color;
+        this.gender = gender;
+        this.weight = weight;
+        this.tailLengthInch = tailLengthInch;
+        this.teethSize = teethSize;
+    }
+}
+let Rich = new Ostrich('Rich', 'mixed', 'M', 200, 8, 'none')
+export default Ostrich
